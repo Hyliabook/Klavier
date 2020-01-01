@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+    <header>
+        <title>Klavier</title>
+        <link href="./css/style.css" type="text/css" rel="stylesheet">
+    </header>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </head>
+    <body>
+        <div id="pianoDiv">
+            <svg id = "pianoCanvas" width =2000 height = 2000 xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="whiteGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style="stop-color:rgb(70, 70, 70);stop-opacity:1" />
+                         <stop offset="10%" style="stop-color:rgb(214, 214, 214);stop-opacity:1" />
+                          <stop offset="95%" style="stop-color:rgb(255, 255, 255);stop-opacity:1" />
+                    </linearGradient>
+                    <linearGradient id="whiteGrad_pressed" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style="stop-color:rgb(40, 40, 40);stop-opacity:1" />
+                         <stop offset="10%" style="stop-color:rgb(184, 184, 184);stop-opacity:1" />
+                          <stop offset="95%" style="stop-color:rgb(225, 225, 225);stop-opacity:1" />
+                    </linearGradient>
+                    <linearGradient id="blackGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="20%" style="stop-color:rgb(20, 20, 20);stop-opacity:1" />
+                         <stop offset="50%" style="stop-color:rgb(31, 31, 31);stop-opacity:1" />
+                          <stop offset="95%" style="stop-color:rgb(41, 41, 41);stop-opacity:1" />
+                    </linearGradient>
+                    <linearGradient id="blackGrad_pressed" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="20%" style="stop-color:rgb(0, 0, 0);stop-opacity:1" />
+                         <stop offset="50%" style="stop-color:rgb(11, 11, 11);stop-opacity:1" />
+                          <stop offset="95%" style="stop-color:rgb(21, 21, 21);stop-opacity:1" />
+                    </linearGradient>
+                    
+                </defs>
+                
+            </svg>
+        </div>
+        <script src="./script/klavier.js"></script>
+    </body>
+</html>

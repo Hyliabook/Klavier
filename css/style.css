@@ -1,0 +1,36 @@
+@font-face{
+    font-family: komika;
+    src: url("../assets/font/komika.ttf")
+}
+
+@font-face{
+    font-family: angelic;
+    src: url("../assets/font/AnglicanText.ttf") format("truetype");
+}
+
+#snowText{
+    font-family: komika;
+    font-size: 20px;
+    fill: purple;
+}
+
+#blaze
+{
+    font-family: komika;
+    font-size: 20px;
+    fill: aqua;
+}
+
+#odeTextGer
+{
+    font-family: angelic;
+    font-size: 30px;
+    fill: black;   
+}
+
+#odeTextEng
+{
+    font-family: komika;
+    font-size: 15px;
+    fill:grey;
+}
