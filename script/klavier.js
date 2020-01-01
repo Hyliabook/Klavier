@@ -136,7 +136,7 @@ function checkSolution()
 
     if(playedNotes.includes("f f a b b a") && ode)
     {
-        window.location = "https://hyliabook.github.io/ebony/";
+        window.location = "https://docs.google.com/document/d/1LJbxkGU1DxQ9MZHp8s0z7-iSOpkOzzBMKS8pjxrgNqc/edit?usp=sharing";
     }
     
 }
