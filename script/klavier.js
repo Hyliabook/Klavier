@@ -134,7 +134,7 @@ function checkSolution()
     if(playedNotes.includes("e e f g g f e d c c d e e d d e e f g g f e d c c d e d c c d d e c d e f e c d e f e c d e d a e e f g g f e d c c d e d c c"))
         elysium();
 
-    if(playedNotes.includes("f f a b b a") && ode)
+    if(playedNotes.includes("c c d e e d d") && ode)
     {
         window.location = "https://docs.google.com/document/d/1LJbxkGU1DxQ9MZHp8s0z7-iSOpkOzzBMKS8pjxrgNqc/edit?usp=sharing";
     }
