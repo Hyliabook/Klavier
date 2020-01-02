@@ -131,7 +131,7 @@ function checkSolution()
         todokete();
     
 
-    if(playedNotes.includes("e e f g g f e d c c d e e d d e e f g g f e d c c d e d c c d d e c d e f e c d e f e c d e d a e e f g g f e d c c d e d c c"))
+    if(playedNotes.includes("e e f g g f e d c c d e e d d e e f g g f e d c c d e d c c"))
         elysium();
 
     if(playedNotes.includes("c c d e e d d") && ode)
